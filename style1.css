@@ -1,0 +1,112 @@
+/* Reset CSS */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling Header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling Navigation */
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Styling Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Gaya awal elemen yang akan diubah tampilannya */
+.hidden {
+    display: none;
+}
+
+/* CSS untuk form login */
+.login-form {
+    position: absolute;
+    top: 50px; /* Menyesuaikan posisi vertikal agar sejajar dengan judul artikel */
+    right: 50px; /* Menggeser ke kiri */
+    background: #f5f5f5;
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 130px; /* Mengubah lebar form login */
+}
+
+.login-form h3 {
+    margin: 0 0 4px;
+    text-align: center;
+    font-size: 10px; /* Mengurangi ukuran teks judul form */
+    color: #333;
+}
+
+/* CSS untuk elemen form */
+.login-form label,
+.login-form input {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 8px; /* Mengubah ukuran teks label dan input */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 2px;
+    font-size: 8px; /* Mengubah ukuran teks input */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form button {
+    background: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 2px 4px; /* Mengubah ukuran padding tombol */
+    cursor: pointer;
+    font-size: 8px; /* Mengubah ukuran teks tombol */
+    border-radius: 3px;
+}
+
+.login-form button:hover {
+    background: #0056b3;
+}
