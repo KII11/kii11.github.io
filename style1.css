@@ -72,3 +72,10 @@ iframe {
   width: 300px;
   height: 140px;
 }
+
+/* CSS untuk mengubah tampilan tautan */
+.judul a {
+  text-decoration: none; /* Menghilangkan garis bawah */
+  color: white; /* Mengganti warna teks menjadi hitam (atau sesuai keinginan Anda) */
+}
+
