@@ -60,53 +60,15 @@ footer {
     display: none;
 }
 
-/* CSS untuk form login */
-.login-form {
-    position: absolute;
-    top: 50px; /* Menyesuaikan posisi vertikal agar sejajar dengan judul artikel */
-    right: 50px; /* Menggeser ke kiri */
-    background: #f5f5f5;
-    padding: 4px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    width: 130px; /* Mengubah lebar form login */
+
+/* CSS untuk iframe */
+iframe {
+  display: block;
+  margin: 0 auto; /* Ini akan memposisikan iframe di tengah secara horizontal */
 }
 
-.login-form h3 {
-    margin: 0 0 4px;
-    text-align: center;
-    font-size: 10px; /* Mengurangi ukuran teks judul form */
-    color: #333;
-}
-
-/* CSS untuk elemen form */
-.login-form label,
-.login-form input {
-    display: block;
-    margin-bottom: 2px;
-    font-size: 8px; /* Mengubah ukuran teks label dan input */
-}
-
-.login-form input[type="text"],
-.login-form input[type="password"] {
-    width: 100%;
-    padding: 2px;
-    font-size: 8px; /* Mengubah ukuran teks input */
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-.login-form button {
-    background: #0074d9;
-    color: #fff;
-    border: none;
-    padding: 2px 4px; /* Mengubah ukuran padding tombol */
-    cursor: pointer;
-    font-size: 8px; /* Mengubah ukuran teks tombol */
-    border-radius: 3px;
-}
-
-.login-form button:hover {
-    background: #0056b3;
+/* Atur lebar dan tinggi iframe sesuai kebutuhan Anda */
+iframe {
+  width: 300px;
+  height: 140px;
 }
