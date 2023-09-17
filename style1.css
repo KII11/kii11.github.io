@@ -77,6 +77,7 @@ iframe {
 .judul a {
   text-decoration: none; /* Menghilangkan garis bawah */
   color: white; /* Mengganti warna teks menjadi hitam (atau sesuai keinginan Anda) */
+  text-align: center;
 }
 
 body {
@@ -135,4 +136,20 @@ body {
 
 h1 {
     font-family: "Arial", Times, serif;
+}
+
+.clock {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.time {
+    font-size: 36px;
+    font-weight: bold;
 }
