@@ -164,6 +164,12 @@ h1 {
         font-size: 14px;
     }
     .beranda ul li a {
-        font-size: 12px; /* Ubah ukuran font sesuai kebutuhan */
+        font-size: 14px; /* Ubah ukuran font sesuai kebutuhan */
+    }
+    .h2 {
+        font-size: 18px;
+    }
+    .tanggalpublikasi {
+        font-size: 14;
     }
 }
