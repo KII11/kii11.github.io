@@ -161,6 +161,9 @@ h1 {
     }
 
     .time {
-        font-size: 24px;
+        font-size: 14px;
+    }
+    .beranda ul li a {
+        font-size: 12px; /* Ubah ukuran font sesuai kebutuhan */
     }
 }
