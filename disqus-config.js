@@ -4,7 +4,7 @@
  */
 /*
 var disqus_config = function () {
-  this.page.url = https://https-kii11-github-io-kii-halaman4-html;  // Ganti PAGE_URL dengan URL halaman Anda
+  this.page.url = https://kii11.github.io/kontak.html;  // Ganti PAGE_URL dengan URL halaman Anda
   this.page.identifier = KOMENTAR; // Ganti PAGE_IDENTIFIER dengan identifier unik halaman Anda
 };
 */
