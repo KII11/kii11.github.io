@@ -131,11 +131,10 @@ a:hover {
 }
 
 #imageContainer {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #zoomImage {
