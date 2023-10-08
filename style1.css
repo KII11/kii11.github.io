@@ -148,3 +148,13 @@ a:hover {
 #zoomImage.zoomed {
     transform: scale(2); /* Anda dapat mengubah faktor perbesaran sesuai keinginan */
 }
+
+/* style.css */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px; /* Sesuaikan dengan jarak yang Anda inginkan antara gambar dan teks */
+}
