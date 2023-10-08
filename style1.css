@@ -157,3 +157,55 @@ a:hover {
 .logo img {
     margin-right: 10px; /* Sesuaikan dengan jarak yang Anda inginkan antara gambar dan teks */
 }
+
+/* Style judul Quiz */
+.kuis {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style container Quiz */
+#quiz-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Style tombol Next Question dan Retry */
+#submit-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submit-button, #retry-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-button:hover, #retry-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style Skor */
+#score-container {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#score {
+    font-weight: bold;
+    color: #007bff;
+}
