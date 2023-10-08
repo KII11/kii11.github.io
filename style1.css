@@ -10,6 +10,28 @@ body {
     font-family: Arial, sans-serif;
 }
 
+body {
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.mode-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
 /* Style the header section */
 header {
     background-color: #333;
@@ -118,17 +140,19 @@ a:hover {
 @media (max-width: 768px) {
     .clock {
         top: 10px;
-        right: 10px;
+        left: 10px;
         padding: 5px;
     }
 
     .time {
         font-size: 14px;
     }
+    
     .beranda ul li a {
         font-size: 14px; /* Ubah ukuran font sesuai kebutuhan */
     }
 }
+
 
 #imageContainer {
     cursor: pointer;
@@ -208,4 +232,46 @@ a:hover {
 #score {
     font-weight: bold;
     color: #007bff;
+}
+
+/* Tambahkan ini ke dalam file style1.css atau file CSS terpisah */
+#dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Gaya teks dalam mode gelap */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Gaya teks pada elemen dengan kelas .dark-text saat dalam mode gelap */
+.dark-mode .dark-text {
+  color: #fff; /* Warna teks diubah menjadi putih dalam mode gelap */
+}
+
+/* Gaya kotak utama dalam mode gelap */
+body.dark-mode main {
+  background-color: #333;
+}
+
+/* Gaya tombol mode gelap */
+button#dark-mode-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Gaya gambar ikon */
+button#dark-mode-toggle img {
+  width: 25px; /* Sesuaikan ukuran gambar sesuai kebutuhan Anda */
+  height: 25px; /* Sesuaikan ukuran gambar sesuai kebutuhan Anda */
 }
