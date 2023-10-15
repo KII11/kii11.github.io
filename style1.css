@@ -185,14 +185,13 @@ a:hover {
 /* Style judul Quiz */
 .kuis {
     font-size: 24px;
-    color: #333;
     text-align: center;
     margin-top: 20px;
 }
 
 /* Style container Quiz */
 #quiz-container {
-    background-color: #f5f5f5;
+    background-color: #222;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -209,7 +208,7 @@ a:hover {
 
 #submit-button, #retry-button {
     background-color: #007bff;
-    color: #fff;
+    color: #000;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -239,7 +238,7 @@ a:hover {
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: #333;
+  background-color: #000;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -248,7 +247,7 @@ a:hover {
 
 /* Gaya teks dalam mode gelap */
 .dark-mode {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
 }
 
@@ -274,4 +273,49 @@ button#dark-mode-toggle {
 button#dark-mode-toggle img {
   width: 25px; /* Sesuaikan ukuran gambar sesuai kebutuhan Anda */
   height: 25px; /* Sesuaikan ukuran gambar sesuai kebutuhan Anda */
+}
+
+/* Gaya kontainer untuk mata pelajaran */
+#course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+/* Gaya kotak mata pelajaran individu pada versi desktop */
+.course-box {
+    flex-basis: calc(30% - 20px); /* Lebar sesuai kebutuhan, dikurangi margin */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px; /* Jarak sebelah kiri dan kanan */
+    margin-bottom: 20px;
+}
+
+/* Gaya kotak mata pelajaran individu pada versi mobile */
+@media (max-width: 768px) {
+    #course-container {
+        justify-content: center; /* Kotak akan sejajar di tengah pada tampilan mobile */
+    }
+    .course-box {
+        flex-basis: calc(100% - 20px); /* Kotak mengisi seluruh lebar kontainer dengan margin */
+        margin: 0 10px; /* Jarak sebelah kiri dan kanan */
+        margin-bottom: 10px;
+    }
+}
+
+/* CSS untuk ukuran teks standar pada mobile */
+@media (max-width: 768px) {
+    #course-container .course-box {
+        font-size: 12px; /* Ubah ukuran teks sesuai kebutuhan */
+    }
+
+    #course-container .course-box h2 {
+        font-size: 1.25rem; /* Ubah ukuran teks sesuai kebutuhan */
+    }
+
+    #course-container .course-box p {
+        font-size: 0.7rem; /* Ubah ukuran teks sesuai kebutuhan */
+    }
 }
