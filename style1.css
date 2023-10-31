@@ -191,7 +191,8 @@ a:hover {
 
 /* Style container Quiz */
 #quiz-container {
-    background-color: #222;
+    background-color: white;
+    color: black;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -233,7 +234,6 @@ a:hover {
     color: #007bff;
 }
 
-/* Tambahkan ini ke dalam file style1.css atau file CSS terpisah */
 #dark-mode-toggle {
   position: absolute;
   top: 20px;
