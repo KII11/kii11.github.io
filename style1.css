@@ -319,3 +319,9 @@ button#dark-mode-toggle img {
         font-size: 0.7rem; /* Ubah ukuran teks sesuai kebutuhan */
     }
 }
+
+.uhamkaimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
