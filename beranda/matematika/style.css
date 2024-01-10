@@ -283,7 +283,7 @@ button#dark-mode-toggle img {
 }
 
 .course-box {
-    flex-basis: calc(45% - 20px); /* Lebar sesuai kebutuhan, dikurangi margin */
+    flex-basis: calc(45% - 0px); /* Lebar sesuai kebutuhan, dikurangi margin */
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
