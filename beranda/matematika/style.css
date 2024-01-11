@@ -291,7 +291,9 @@ button#dark-mode-toggle img {
     margin-bottom: 20px;
 }
 
-
+.judul-tengah {
+    text-align: center;
+}
 
 @media (max-width: 768px) {
     #course-container {
@@ -323,4 +325,20 @@ button#dark-mode-toggle img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.gambar-tengah {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container {
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+}
+
+.gambar-tengah {
+    width: 100%;
+    transition: transform 0.5s ease;
 }
