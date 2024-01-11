@@ -122,6 +122,10 @@ a:hover {
     text-indent: 30px;
 }
 
+.ratateks-kanankiri {
+    text-align: justify;
+}
+
 .clock {
     position: fixed;
     background-color: #444;
