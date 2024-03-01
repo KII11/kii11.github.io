@@ -40,14 +40,6 @@ header {
     padding: 20px 0;
 }
 
-header {
-    background-image: url('background-header.png');
-    background-size: cover; /* Menyesuaikan ukuran gambar dengan header */
-    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
-    /* Tambahan gaya CSS lainnya jika diperlukan */
-}
-
-
 h1 {
     font-size: 24px;
     margin: 0;
@@ -128,6 +120,10 @@ a:hover {
 .rata-kanankiri {
     text-align: justify;
     text-indent: 30px;
+}
+
+.ratateks-kanankiri {
+    text-align: justify;
 }
 
 .clock {
@@ -283,7 +279,6 @@ button#dark-mode-toggle img {
   height: 25px; /* Sesuaikan ukuran gambar sesuai kebutuhan Anda */
 }
 
-/* Gaya kontainer untuk mata pelajaran */
 #course-container {
     display: flex;
     flex-wrap: wrap;
@@ -291,7 +286,6 @@ button#dark-mode-toggle img {
     margin: 20px auto;
 }
 
-/* Gaya kotak mata pelajaran individu pada versi desktop */
 .course-box {
     flex-basis: calc(45% - 0px); /* Lebar sesuai kebutuhan, dikurangi margin */
     padding: 20px;
@@ -301,7 +295,10 @@ button#dark-mode-toggle img {
     margin-bottom: 20px;
 }
 
-/* Gaya kotak mata pelajaran individu pada versi mobile */
+.judul-tengah {
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     #course-container {
         justify-content: center; /* Kotak akan sejajar di tengah pada tampilan mobile */
@@ -332,4 +329,20 @@ button#dark-mode-toggle img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.gambar-tengah {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container {
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+}
+
+.gambar-tengah {
+    width: 100%;
+    transition: transform 0.5s ease;
 }
