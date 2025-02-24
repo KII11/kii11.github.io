@@ -1,0 +1,348 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font styles for the whole page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.mode-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+/* Style the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h2, h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 2px solid #007bff;
+}
+
+/* Style the marquee element */
+marquee {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Style the links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.rata-kanankiri {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.ratateks-kanankiri {
+    text-align: justify;
+}
+
+.clock {
+    position: fixed;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.time {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Responsif untuk handphone */
+@media (max-width: 768px) {
+    .clock {
+        top: 10px;
+        left: 10px;
+        padding: 5px;
+    }
+
+    .time {
+        font-size: 14px;
+    }
+    
+    .beranda ul li a {
+        font-size: 14px; /* Ubah ukuran font sesuai kebutuhan */
+    }
+}
+
+
+#imageContainer {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zoomImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+#zoomImage.zoomed {
+    transform: scale(2); /* Anda dapat mengubah faktor perbesaran sesuai keinginan */
+}
+
+/* style.css */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px; /* Sesuaikan dengan jarak yang Anda inginkan antara gambar dan teks */
+}
+
+/* Style judul Quiz */
+.kuis {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style container Quiz */
+#quiz-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Style tombol Next Question dan Retry */
+#submit-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submit-button, #retry-button {
+    background-color: #007bff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-button:hover, #retry-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style Skor */
+#score-container {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#score {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Gaya teks dalam mode gelap */
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Gaya teks pada elemen dengan kelas .dark-text saat dalam mode gelap */
+.dark-mode .dark-text {
+  color: #fff; /* Warna teks diubah menjadi putih dalam mode gelap */
+}
+
+/* Gaya kotak utama dalam mode gelap */
+body.dark-mode main {
+  background-color: #333;
+}
+
+/* Gaya tombol mode gelap */
+button#dark-mode-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Gaya gambar ikon */
+button#dark-mode-toggle img {
+  width: 25px; /* Sesuaikan ukuran gambar sesuai kebutuhan Anda */
+  height: 25px; /* Sesuaikan ukuran gambar sesuai kebutuhan Anda */
+}
+
+#course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.course-box {
+    flex-basis: calc(45% - 0px); /* Lebar sesuai kebutuhan, dikurangi margin */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px; /* Jarak sebelah kiri dan kanan */
+    margin-bottom: 20px;
+}
+
+.judul-tengah {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #course-container {
+        justify-content: center; /* Kotak akan sejajar di tengah pada tampilan mobile */
+    }
+    .course-box {
+        flex-basis: calc(100% - 20px); /* Kotak mengisi seluruh lebar kontainer dengan margin */
+        margin: 0 10px; /* Jarak sebelah kiri dan kanan */
+        margin-bottom: 10px;
+    }
+}
+
+/* CSS untuk ukuran teks standar pada mobile */
+@media (max-width: 768px) {
+    #course-container .course-box {
+        font-size: 12px; /* Ubah ukuran teks sesuai kebutuhan */
+    }
+
+    #course-container .course-box h2 {
+        font-size: 1.25rem; /* Ubah ukuran teks sesuai kebutuhan */
+    }
+
+    #course-container .course-box p {
+        font-size: 0.7rem; /* Ubah ukuran teks sesuai kebutuhan */
+    }
+}
+
+.uhamkaimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gambar-tengah {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container {
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+}
+
+.gambar-tengah {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
