@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KII</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="kii.png" type="image/x-icon">
+</head>
+<body>
+    <div>
+        <div class="clock">
+        <div id="time" class="time"></div>
+    </div>
+    <script src="jam.js"></script>
+    <header>
+        <button id="dark-mode-toggle">
+            <img id="dark-mode-icon" src="mode-terang.png" alt="Mode Terang">
+        </button>
+        <script src="dark-mode.js"></script>
+        <a href="beranda.html"> <img src="kii.png" alt="KII Education" style="width: 120px;">
+        </a>
+        <br>
+    </header>
+
+    <nav class="beranda">
+        <ul>
+            <li><a href="beranda.html">Beranda</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="disqus.html">Diskusi</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hubungikami">
+            <h2>Hubungi Kami</h2>
+            <br><br>
+            <p>Silakan hubungi kami melalui informasi kontak berikut:</p>
+            <ul>
+                <li>Blog: <a href="https://iskiferdian.blogspot.com/" target="_blank">iskiferdian.blogspot.com</a></li>
+                <li>Web Developer: Riski Ferdiansyah</li>
+            </ul>
+        </section>
+    </main>
+
+    <main>
+        <section class="visimisi">
+            <h2>Tujuan</h2>
+            <br><br>
+            <p class="rata-kanankiri">Saya adalah seorang mahasiswa UHAMKA jurusan PGSD. Tujuan saya membuat website ini untuk memudahkan saya dalam mengelola informasi selama perkuliahan.</p>
+            <br><br>
+
+        <div id="imageContainer">
+            <img src="jadwal-kuliah-semester-4.jpg" alt="Jadwal Kuliah" style="width: 600px" id="zoomImage">
+        </div>
+            <br>
+        </section>
+        <br><br>
+        <h2 class="kuis">Quiz Bahasa Inggris SD</h2>
+        <div id="quiz-container">
+            <!-- Soal dan pilihan jawaban akan ditampilkan di sini -->
+        </div>
+        <div id="submit-container">
+            <button id="submit-button">Next Question</button>
+            <button id="retry-button">Retry</button>
+        </div>
+        <div id="score-container">
+            Skor: <span id="score">0</span>
+        </div>
+        <script src="script1.js"></script>
+    </main>
+    <br>
+    <marquee behavior="scroll" direction="left">SELAMAT DATANG DI WEBSITE KAMI :)</marquee>
+    <footer>
+        <p>Hak Cipta &copy; 2023</p>
+    </footer>
+</body>
+</html>
